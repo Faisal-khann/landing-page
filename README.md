@@ -1,4 +1,5 @@
 # GYM-Page
 <br>
-This is the landing page of specific fitness club or gym and
-this landing page is made up by the help of html5 and vanilla css
+Here is the <strong>Landing page of fitness club</strong> which is 
+made up by using <strong>HTML5</strong> and <strong>Vanilla CSS</strong>
+
