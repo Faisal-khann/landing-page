@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/barbell-ga6e887944_1280.jpg);
+    color: white;
+    width: 100%;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav{
+    display: flex; 
+    justify-content: space-around;
+    margin-top: 30px;
+}
+span{
+    color: orange;
+}
+nav h1{
+    font-size: 50px;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    list-style: none;
+
+}
+ul li a{
+    margin-inline: 30px;
+    font-size: 30px;
+}
+ul button{
+   background-color: darkgray;
+    height: 30px;
+    color: black;
+    font-weight: 700;
+    padding: 0 20px;
+    border: none;
+    border-radius: 8px;
+    margin: 4px;
+    cursor: pointer;
+
+}
+ul button:hover{
+    background-color: skyblue;
+    color: black;
+}
+.container{
+    margin-left: 100px;
+    width: 100%;
+    margin-top: 200px;
+}
+.head{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    border: 2px solid black;
+    width: 40%;
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin-bottom: 5px; 
+    padding: 10px 5px;
+}
+.info{
+    font-size: 30px;
+    margin: 3px;
+    margin-left: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+.btn{
+    margin-left: 130px;
+    font-size: 20px;
+    padding: 3px 70px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: darkgrey;
+    font-weight: 200;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: skyblue;
+    color: black;
+}
+.content{
+    margin-left: 800px;
+}
+.content h1{
+    border: 2px solid black;
+    width: 50%;
+    background-color: khaki;
+    color: black;
+    margin-left: 25%;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px
+}
+footer {
+    background-color: black;
+    padding: 20px;
+    font-size: 20px;
+    margin-right: 100px;
+    text-align: center;
+    justify-content: space-around;
+    color: #fff;
+    text-align: center;
+  }
